@@ -1,7 +1,7 @@
 ##########################################
 # With requests method, taking all the entry from a dinamyc website and copiyng them on a note on the desktop.
-# Problem: Only a part of the entry taken (until letter "D").
-# Solution: Load all the entry before.
+# Problem: Only a part of the titles were taken (until letter "D").
+# Solution: Load all the entrys before.
 ##########################################
 
 from datetime import datetime
