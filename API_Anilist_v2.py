@@ -1,6 +1,6 @@
 ##########################################
 # With requests method, taking all the entry from a dinamyc website and copiyng them on a note on the desktop.
-# Solution: Load all the entry before.
+# Solution: Load all the entrys before.
 ##########################################
 
 from datetime import datetime
