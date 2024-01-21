@@ -1,5 +1,5 @@
 ##########################################
-# With requests method, taking all the entry from a dinamyc website and copiyng them on a note on the desktop.
+# With a webscraper method, taking all the entry from a dinamyc website and copiyng them on a note on the desktop.
 # Solution: Load all the entrys before.
 ##########################################
 
