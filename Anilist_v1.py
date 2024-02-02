@@ -10,7 +10,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # Url
-OG_Url = 'https://anilist.co/user/Cesa00/animelist'
+# * --> change the asterisk with the username
+OG_Url = 'https://anilist.co/user/*/animelist'
 
 # requests
 response = requests.get(OG_Url)
