@@ -44,7 +44,8 @@ def scrolldown(Url):
     return results
 
 # Url
-OG_Url = 'https://anilist.co/user/Cesa00/animelist'
+# * --> change the asterisk with the username
+OG_Url = 'https://anilist.co/user/*/animelist'
 
 # driver intsall
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
