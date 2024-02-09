@@ -2,7 +2,9 @@
 Algorithm to create a backup note on the desktop with all the watching/completed/planning/dropped series on anilist profile.
 
 ### [*Anilist_v1*](Anilist_v1.py) was the first program done.
-Using the *Requests* library to obtain the data and the *BeautifulSoup* library to analyze the content, the section name and the series it contains are read and saved in the correspondents list; then a file is created with the current date and populated with the section, series name, and total series in each section.
+- Using the *Requests* library to obtain the data and the *BeautifulSoup* library to analyze the content
+- the section name and the series it contains are read and saved in the correspondents list
+- then a file is created with the current date and populated with the section, series name, and total series in each section
 
 But the series stop at the letter D because the web page is dynamic and not all the series are loaded at the same time.
 To solve the problem the second program was created.
