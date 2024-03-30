@@ -1,8 +1,3 @@
-##########################################
-# With a webscraper method, taking all the entry from a dinamyc website and copiyng them on a note on the desktop.
-# Solution: Load all the entrys before.
-##########################################
-
 from datetime import datetime
 import json
 from bs4 import BeautifulSoup
