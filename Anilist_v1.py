@@ -4,8 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # Url
-# * --> change the asterisk with the username
-OG_Url = 'https://anilist.co/user/*/animelist'
+OG_Url = 'https://anilist.co/user/Cesa00/animelist'
 
 # requests
 response = requests.get(OG_Url)
@@ -25,7 +24,7 @@ for tot_element in tot_elements:
     # section
     status_element = tot_element.find("h3", class_="section-name")
     status_element = status_element.text.strip().upper()
-    
+
     # title
     links = tot_element.find_all("a")
     for link in links:
@@ -49,7 +48,7 @@ for tot_element in tot_elements:
 # get current date and time
 current_date = datetime.now().strftime("%Y-%m-%d")
 print("Current date: ", current_date)
- 
+
 # convert datetime obj to string
 str_current_datetime = str(current_date)
 

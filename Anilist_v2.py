@@ -5,12 +5,12 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 import time
+from pathing import pathing
 
 
 def main():
 
     # Url
-    # * --> change the asterisk with the username
     OG_Url = 'https://anilist.co/user/Cesa00/animelist'
 
     # scroll page function
@@ -108,7 +108,7 @@ def fileCreation(lines):
     str_current_datetime = str(current_date)
 
     # file
-    with open('Anilist '+ str_current_datetime +'.txt', 'w') as list:
+    with open(pathing + 'Anilist ' + str_current_datetime + '.txt', 'w') as list:
         json.dump(lines, list, indent=3)
     print("Done writing dict into .txt file")
 
