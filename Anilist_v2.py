@@ -60,6 +60,8 @@ def main():
     # saving on file
     fileCreation(lines)
 
+    return "Backup done!"
+
 
 # open the page, scroll to the bottom, saving and returning the page
 def loadingPage(Url):
@@ -110,7 +112,7 @@ def fileCreation(lines):
     # file
     with open(pathing + 'Anilist ' + str_current_datetime + '.txt', 'w') as list:
         json.dump(lines, list, indent=3)
-    print("Done writing dict into .txt file")
+    print("Wrote dict into .txt file")
 
 
 
