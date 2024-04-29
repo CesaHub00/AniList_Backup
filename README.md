@@ -1,5 +1,5 @@
 # **AniList_Backup**
-Algorithm to create a backup note on the desktop with all the watching/completed/planning/dropped series on anilist profile.
+Algorithm to create a backup note with all the watching/completed/planning/dropped series on anilist profile.
 
 ### [*Anilist_v1*](Anilist_v1.py) was the first program done.
 - Using the *Requests* library to obtain the data and the *BeautifulSoup* library to analyze the content
