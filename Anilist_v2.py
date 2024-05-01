@@ -71,7 +71,7 @@ def loadingPage(Url):
     options = webdriver.ChromeOptions()
 
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    SCROLL_PAUSE_TIME = 5.0
+    SCROLL_PAUSE_TIME = 3.0
 
     # initiating web driver
     driver.get(Url)
