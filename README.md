@@ -16,4 +16,4 @@ The main core of the new version is to directly opend the web page and scroll it
 
 #### NB: 
 - change your anilist username in the `OG_Url` variable in row 14;
-- modify the path in the file cration: change the `pathing` variable with your own path
+- modify the path in the file cration function in row 113: change the `pathing` variable with your own path
