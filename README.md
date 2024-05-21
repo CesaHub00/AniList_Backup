@@ -13,3 +13,7 @@ To solve the problem the second program was created.
 Instead of using the *Requests* library, a web scraping tool is used before the analysis phase with *BeautifulSoup*; to do so the *Selenium* library is used to import the *webdriver*.
 
 The main core of the new version is to directly opend the web page and scroll it to the end with a pause between each scrolling action, to allow the page load all series, also the fully loaded page is given to the *BeautifulSoup* class to start the parsing phase, from this point on the algorith is the same as the first version.
+
+#### NB: 
+- change your anilist username in the 'OG_Url' variable in row 14;
+- modify the path in the file cration: change the 'pathing' variable with your own path
